@@ -1,0 +1,246 @@
+/*CSS for Portfolio*/
+/*Color Palette
+Teal = #4aaaa5
+Regular font color = #777777
+Main header background color = #ffffff
+Main header border color = #cccccc
+Footer background color = #666666
+Main content background color = #ffffff
+Main content border color = #dddddd
+*/
+
+/*Dimensions
+Entire content area is 960px wide.
+Main section content is 650px wide
+Sidebar is 270px wide.
+*/
+
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0 auto;
+	background-image: url("../images/pixel_weave.png");
+}
+
+/*Fonts*/
+h1, h2, h3, h4 {
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+nav, section, aside, footer {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+}
+
+/*Header*/
+.mainHeader {
+	position: relative;
+	background: #ffffff;
+	border-bottom: 3px solid #cccccc;
+}
+.name {
+	margin: 0;
+	background: #4aaaa5;
+	color: white;
+	padding: 15px;
+	text-align: center;
+	width: 300px;
+	margin-left: 150px;
+}
+nav {
+	position: absolute;
+	left: 800px;
+	top: 10px;
+}
+nav li {
+	display: inline;
+	padding: 0px 5px;
+	float: left;
+	border-right: 1px solid #cccccc;
+	text-decoration: none;
+}
+nav li:last-child{
+	border-right: none;
+}
+li a {
+	text-decoration: none;
+	color: #777777;
+}
+li a:hover {
+	color: #4aaaa5;
+}
+
+/*Main Section Content: About Me*/
+.mainSection{
+	clear: both;
+	margin: 0 auto;
+	width: 960px;
+}
+.profileImage {
+	float: left;
+	margin-right: 15px;
+	margin-top: 15px;
+}
+h2 {
+    color: #4aaaa5;
+    margin: 0px;
+    padding-bottom: 20px;
+    border-bottom: 3px solid #cccccc;
+}
+.content{
+	clear: both;
+	position: relative;
+	width: 650px;
+	background: #ffffff;
+	padding: 30px;
+	margin-right: 500px;
+	border: 1px solid #dddddd;
+	margin-top:40px;
+}
+
+/*Main Section Content: Contact*/
+.form {
+	margin-top:20px;
+}
+form p {
+	line-height:0px;
+}
+input{
+	margin-bottom:10px;
+}
+.button {
+	background: #4aaaa5;
+	color: #ffffff;
+	border: none;
+	text-align: center;
+	padding: 8px 25px;
+}
+.boxWidth {
+	width: 588px;
+	line-height: 180%;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+}
+
+/*Main Section Content: Portfolio*/
+img {
+	height: 200px;
+	width: 280px;
+}
+h4 {
+	margin: 0px;
+	padding: 20px;
+	width: 280px;
+	background: #4aaaa5;
+	color: #ffffff;
+	text-align: center;
+}
+.hang {
+	float: left;
+	position: relative;
+	margin-top: 30px;
+}
+.hang img{
+	position: relative;
+}
+.hang h4 {
+	position: absolute;
+	bottom: 15px;
+}
+.rpg {
+	float: right;
+	position: relative;
+	margin-top: 30px;
+}
+.rpg img{
+	position: relative;
+}
+.rpg h4 {
+	position: absolute;
+	bottom: 15px;
+}
+.trivia {
+	clear: both;
+	float: left;
+	position: relative;
+	margin-top: 30px;
+}
+.trivia img {
+	position: relative;
+}
+.trivia h4 {
+	position: absolute;
+	bottom: 15px;
+}
+.rutgers {
+	float: right;
+	position: relative;
+	margin-top: 30px;
+}
+.rutgers img {
+	position: relative;
+}
+.rutgers h4 {
+	position: absolute;
+	bottom: 15px;
+}
+.rock {
+	clear:both;
+	position: relative;
+	padding-top: 30px;
+}
+.rock img {
+	position: relative;
+}
+.rock h4 {
+	position: absolute;
+	bottom: 15px;
+}
+
+/*Connect with Me Section*/
+.socialMedia {
+	clear: both;
+	position: absolute;
+	width: 270px;
+	text-align: center;
+	background: #ffffff;
+	border: 1px solid #dddddd;
+	padding:20px;
+	top: 0px;
+	left: 675px;
+}
+h3{
+	color: #4aaaa5;
+	margin-top:0px;
+}
+.icons {
+	margin: auto;
+	padding-top:10px;
+	width: 180px;
+	border-top: 1px solid #cccccc;
+}
+.githubIcon {
+	height:50px;
+	width: 50px;
+	margin: 10px 0px;
+}
+.linkedinIcon {
+	height:50px;
+	width: 50px;
+	margin: 10px 0px;
+}
+.stackoverflowIcon {
+	height: 50px;
+	width: 50px;	
+	margin: 10px 0px;
+}
+
+/*Footer*/
+footer {
+	padding: 30px;
+	background: #666666;
+	color: #ffffff;
+	text-align: center;
+	border-top: 5px solid #4aaaa5;
+	margin-top: 40px;
+}
