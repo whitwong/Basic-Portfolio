@@ -5,10 +5,10 @@ Technology used to make this project: HTML and CSS.
 
 Below are screenshots of each html page:
 ### Index
-![index screenshot](assets/images/index.png)
+![index screenshot](assets/images/index.PNG)
 
 ### Contact
-![portfolio screenshot](assets/images/contact.png)
+![contact screenshot](assets/images/contact.PNG)
 
 ### Portfolio
-![contact screenshot](assets/images/portfolio.png)
+![portfolio screenshot](assets/images/portfolio.PNG)
